@@ -36,15 +36,23 @@ header {
   height: 400px;
   width: 640px;
   background-color: white;
+  float: left;
 }
 
 .right-content {
   height: 370px;
   width: 320px;
   background-color: #f9f9f9;
+  float: left;
 }
 
 footer {
   background-color: gray;
   height: 50px;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
 }
